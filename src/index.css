@@ -47,18 +47,19 @@ body {
 
 
 .smallContainer{
-  min-height: 500px;
+  min-height: 800px;
   display: flex;
   align-items: flex-end;
   text-decoration: none;
   color: black;
-  padding: 0 0 20px 0;
+  padding: 20px 0 20px 0;
   margin: 20px 0 20px 0;
 
 }
 
 .smallContainer div{
-  background-color: rgb(215, 210, 205);
+  background-color: rgb(206, 212, 218) !important;
+  color: rgb(42, 41, 44);
   padding: 8px 10px;
   margin-left: 5px;
   display: flex;

@@ -24,7 +24,7 @@ export default function Portfolio() {
             <a href=" https://github.com/git6548/Gameporium">Gameporium Repo</a>
           </div>
         </div>
-        <div className="smallContainer project3">
+        {/* <div className="smallContainer project3">
           <div>
             <a href="#">
               Project 3 Deployed Site
@@ -32,7 +32,7 @@ export default function Portfolio() {
             <a href="#"> Project 3 Repo
             </a>
           </div>
-        </div>
+        </div> */}
       </div>
 
     </section>
