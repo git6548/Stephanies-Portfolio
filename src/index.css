@@ -1,0 +1,91 @@
+body {
+  background-color: rgb(206, 212, 218) !important;
+  color: rgb(42, 41, 44)
+}
+.Stephanie {
+  padding: 10px 0 0 0;
+  font-size: 32px;
+}
+.tabs
+{
+  float: right;
+  font-size: 32px;
+  background-color: rgb(108, 117, 125);
+}
+.nav-tabs {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(108, 117, 125);
+}
+.nav-link:active {
+  background-color: rgb(71, 66, 66) !important;
+}
+.nav-link {
+  color: rgb(42, 41, 44) !important;
+}
+
+
+/* portfolio images */
+
+.forcastFilms{
+  background-image: url('./assets/images/Screenshot-ForecastFilms.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.gameporium{
+  background-image: url('./assets/images/Screenshot-Gameporium.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.project3{
+  background-image: url('./assets/images/mountain-image.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+
+.smallContainer{
+  min-height: 500px;
+  display: flex;
+  align-items: flex-end;
+  text-decoration: none;
+  color: black;
+  padding: 0 0 20px 0;
+  margin: 20px 0 20px 0;
+
+}
+
+.smallContainer div{
+  background-color: rgb(215, 210, 205);
+  padding: 8px 10px;
+  margin-left: 5px;
+  display: flex;
+  flex-direction: column;
+  border-radius:1em;
+}
+
+.smallContainer div a{
+  font-size: 20px;
+  text-decoration: none;
+  color:rgb(71, 66, 66);
+}
+
+.nav-link:hover{
+  color: black !important;
+}
+
+.contact-fields{
+  margin: 0 0 0 20px;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(108, 117, 125);
+  color: rgb(42, 41, 44);
+  text-align: center;
+}
