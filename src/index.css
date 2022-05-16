@@ -47,6 +47,7 @@ body {
 
 
 .smallContainer{
+  size: auto;
   min-height: 800px;
   display: flex;
   align-items: flex-end;
@@ -89,4 +90,9 @@ footer {
   background-color: rgb(108, 117, 125);
   color: rgb(42, 41, 44);
   text-align: center;
+}
+.about {
+  width: 800px;
+  margin: 0 0 0 50px;
+  padding: 50px 0 50px 0;
 }
